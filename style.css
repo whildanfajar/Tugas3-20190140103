@@ -1,0 +1,17 @@
+.atas{
+    text-align: center;
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .atas{
+        color: darkblue;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .atas{
+        color: darkblue;
+        font-size: 20px;
+    }
+}

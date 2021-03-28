@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whildan Fajar Hidayat | 20190140103</title>
+</head>
+<body>
+    <div class="atas">
+        <h2> DATE</h2>
+        <p id="tanggal"></p>
+        <h2>HOURS</h2>
+        <p id ="jam"></p>
+        <script>
+            var today = new Date();
+            var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+            document.getElementById("tanggal").innerHTML = date;
+        </script>
+        <script>
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            document.getElementById("jam").innerHTML = time;
+        </script>
+        <script src="tugas_js.js"></script>
+    </div>
+</body>
+</html>
